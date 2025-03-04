@@ -1,0 +1,35 @@
+button{
+    font-family: Vendana;
+    font-size: 16pt;
+    background-color: #456;
+    color:#ccc;
+    border-radius: 5px;
+    width:100%;
+    border: solid 1px gray;
+}
+
+button:hover{
+    background-color: #567;
+    cursor: pointer;
+}
+textarea{
+    font-family: monospace;
+    font-size:16pt;
+    width: 100%;
+    padding: 5px;
+}
+body{
+    background-color: #345;
+    color: #ccc;
+    font-family: Verdana;
+    font-size:16pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#result{
+    white-space: pre;
+}
